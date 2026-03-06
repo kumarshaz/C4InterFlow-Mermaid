@@ -1,8 +1,0 @@
-TraderXExample:
-  BusinessProcesses:
-    ExecuteTrades:
-      Activities:
-      - TraderXExample.Actors.Trader.Activities.CreateTradeRequest
-      - TraderXExample.SoftwareSystems.TraderX.Containers.TradeProcessor.Interfaces.Start
-      - TraderXExample.SoftwareSystems.TraderX.Containers.WebGUI.Interfaces.Start
-      - TraderXExample.Actors.Trader.Activities.CancelTrade

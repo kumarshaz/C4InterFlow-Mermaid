@@ -1,8 +1,0 @@
-BigBankPlc:
-  BusinessProcesses:
-    CompleteEndToEnd:
-      Label: Complete (End-To-End)
-      Activities:
-      - BigBankPlc.Actors.Customer.Activities.BankingViaWebApp
-      - BigBankPlc.Actors.Customer.Activities.BankingViaMobileApp
-      - BigBankPlc.Actors.Customer.Activities.ReceiveEMailNotifications

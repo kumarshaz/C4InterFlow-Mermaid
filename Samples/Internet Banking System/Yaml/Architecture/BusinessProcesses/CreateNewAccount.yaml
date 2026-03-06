@@ -1,9 +1,0 @@
-BigBankPlc:
-  BusinessProcesses:
-    CreateNewAccount:
-      Label: Create New Account
-      Activities:
-        - BigBankPlc.Actors.Customer.Activities.GoToOnlineBankingURL
-        - BigBankPlc.Actors.Customer.Activities.SignInAndViewHomePage
-        - BigBankPlc.Actors.Customer.Activities.CreateNewAccount
-        - BigBankPlc.Actors.Customer.Activities.ReceiveNewAccountCreatedNotificationEMail
